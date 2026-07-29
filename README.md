@@ -2,17 +2,16 @@
 
 Controlled ray tracing from Schwarzschild–AdS to Kerr–AdS with matched mass, camera, source, numerical settings, and a common exposure scale.
 
-<a href="https://raw.githubusercontent.com/arvinshm/ads-black-hole-raytracer/main/figures/continuity_experiment.png">
-  <img src="https://raw.githubusercontent.com/arvinshm/ads-black-hole-raytracer/main/figures/continuity_experiment.png" alt="Kerr–AdS continuity experiment" width="100%">
-</a>
+![Kerr–AdS continuity results](figures/continuity_experiment/latest_targets.jpg)
 
-[Open the full-resolution figure](https://raw.githubusercontent.com/arvinshm/ads-black-hole-raytracer/main/figures/continuity_experiment.png)
-
-The displayed run uses
+The displayed `96 x 96` misaligned-source run contains:
 
 ```text
-Omega_H L = 0, 0.01, 0.03, 0.10, 0.30
+Schwarzschild–AdS
+Kerr–AdS: Omega_H L = 0, 0.30, 0.70, 0.98, 1.28, 1.55
 ```
+
+The last two Kerr–AdS cases are above the Hawking–Reall bound, `Omega_H L = 1`, and are fixed-background ray traces.
 
 ## Run
 
@@ -23,16 +22,9 @@ python -m pip install -e .[dev]
 
 python examples/run_continuity_experiment.py \
   --preset misaligned \
+  --targets 0,0.30,0.70,0.98,1.28,1.55 \
   --width 96 --height 96 \
   --workers 10
-```
-
-Custom rotation targets can be supplied directly:
-
-```bash
-python examples/run_continuity_experiment.py \
-  --targets 0,0.01,0.03,0.1,0.3 \
-  --preset misaligned
 ```
 
 More details are in [`docs/LOCAL_RUN_AND_CONTINUITY_EXPERIMENT.md`](docs/LOCAL_RUN_AND_CONTINUITY_EXPERIMENT.md).
