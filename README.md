@@ -2,7 +2,7 @@
 
 Controlled ray tracing from Schwarzschild–AdS to Kerr–AdS with matched mass, camera, source, numerical settings, and a common exposure scale.
 
-![Kerr–AdS continuity results](figures/continuity_experiment/latest_targets.jpg)
+![Kerr–AdS continuity results](figures/continuity_experiment/latest_targets.svg)
 
 The displayed `96 x 96` misaligned-source run contains:
 
