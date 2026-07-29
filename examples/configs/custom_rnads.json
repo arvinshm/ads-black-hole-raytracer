@@ -1,0 +1,8 @@
+{
+  "metric": {"name": "examples.custom_metric:ReissnerNordstromAdS4", "parameters": {"L": 1.0, "mu": 0.3, "charge": 0.12}},
+  "camera": {"position": [0.0, 20.0, 1.5707963267948966, 3.141592653589793], "width": 32, "height": 32, "horizontal_fov_degrees": 168.0},
+  "source": {"theta": 1.5707963267948966, "phi": 0.0, "angular_sigma": 0.07, "wavelength_nm": 550.0},
+  "trace": {"outer_radius": 20.0, "max_affine": 120.0, "max_step": 0.08},
+  "output": "outputs/custom_rnads",
+  "workers": 4
+}
