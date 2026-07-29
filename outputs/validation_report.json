@@ -1,0 +1,65 @@
+{
+  "metric_algebra": {
+    "max_metric_inverse_error": 2.220446049250313e-16,
+    "max_tetrad_orthonormality_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  "pure_ads": {
+    "cutoff_radii": [
+      10.0,
+      20.0,
+      40.0
+    ],
+    "antipodal_angular_miss_radians": [
+      0.13247754700139197,
+      0.06655891713001372,
+      0.033319844770738
+    ],
+    "boundary_time_error_vs_pi": [
+      0.23922270089533182,
+      0.12004070808569756,
+      0.06007445954209478
+    ],
+    "radial_exact_time_error": 4.0014880714700496e-05,
+    "radial_endpoint_miss": 0.0,
+    "max_relative_null_residual": 1.4802311773932368e-07,
+    "passed": true
+  },
+  "schwarzschild_ads": {
+    "horizon_radius": 0.4238537990697833,
+    "horizon_equation_residual": 1.3877787807814457e-16,
+    "photon_sphere_radius": 0.75,
+    "critical_local_angle_degrees": 52.50165954997016,
+    "below_critical_status": "horizon",
+    "above_critical_status": "boundary",
+    "max_relative_null_residual": 1.0786616694224279e-08,
+    "passed": true
+  },
+  "kerr_ads": {
+    "a_to_zero_metric_reduction_error": 1.7763568394002505e-15,
+    "outer_horizon_radius": 0.6210293166644826,
+    "horizon_equation_residual": 4.440892098500626e-16,
+    "test_ray_status": "boundary",
+    "p_t_drift": 0.0,
+    "p_phi_drift": 0.0,
+    "max_relative_null_residual": 1.043708680577074e-09,
+    "zamo_omega_large_r": -0.24999973333501774,
+    "zamo_omega_error_vs_minus_a_over_L2": 2.666649822624656e-07,
+    "analytic_inverse_error": 5.551115123125783e-17,
+    "analytic_inverse_derivative_error": 8.881784197001252e-16,
+    "near_bound_Omega_H_times_L": 0.9800000000000003,
+    "near_bound_margin": 0.019999999999999685,
+    "near_bound_satisfies_hawking_reall": true,
+    "passed": true
+  },
+  "radiometry": {
+    "computed_doppler_factor": 1.3627702877384944,
+    "special_relativistic_expected_factor": 1.362770287738494,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  "summary": {
+    "passed": true,
+    "sections": 5
+  }
+}

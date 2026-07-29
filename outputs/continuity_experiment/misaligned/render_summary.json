@@ -1,0 +1,30 @@
+{
+  "schwarzschild_ads_mu0p50_96x96": {
+    "boundary": 8668,
+    "horizon": 548
+  },
+  "kerr_ads_omegaHL_0p00_96x96": {
+    "boundary": 8668,
+    "horizon": 548
+  },
+  "kerr_ads_omegaHL_0p30_96x96": {
+    "boundary": 8632,
+    "horizon": 584
+  },
+  "kerr_ads_omegaHL_0p70_96x96": {
+    "boundary": 8452,
+    "horizon": 764
+  },
+  "kerr_ads_omegaHL_0p98_96x96": {
+    "boundary": 8120,
+    "horizon": 1096
+  },
+  "kerr_ads_omegaHL_1p28_96x96": {
+    "boundary": 7498,
+    "horizon": 1718
+  },
+  "kerr_ads_omegaHL_1p55_96x96": {
+    "boundary": 7134,
+    "horizon": 2082
+  }
+}

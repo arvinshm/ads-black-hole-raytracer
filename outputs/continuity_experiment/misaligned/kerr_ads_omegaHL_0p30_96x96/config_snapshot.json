@@ -1,0 +1,62 @@
+{
+  "metric": {
+    "name": "kerr_ads",
+    "parameters": {
+      "L": 1.0,
+      "mu": 0.5,
+      "a": 0.09560506676056002
+    }
+  },
+  "camera": {
+    "position": [
+      0.0,
+      20.0,
+      1.5707963267948966,
+      3.141592653589793
+    ],
+    "width": 96,
+    "height": 96,
+    "horizontal_fov_degrees": 168.0
+  },
+  "source": {
+    "theta": 1.5707963267948966,
+    "phi": 0.1,
+    "wavelength_nm": 550.0,
+    "peak_intensity": 1.0,
+    "angular_sigma": 0.05,
+    "emitter_velocity_local": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "trace": {
+    "outer_radius": 20.0,
+    "max_affine": 60.0,
+    "rtol": 2e-07,
+    "atol": 2e-09,
+    "max_step": 0.25,
+    "horizon_buffer": 0.0002,
+    "store_path": false,
+    "max_rhs_evaluations": 2500,
+    "ray_wall_time_limit_seconds": 2.0
+  },
+  "output": "/Users/arvinshm/Downloads/ads_black_hole_raytracer/outputs/continuity_experiment/misaligned/kerr_ads_omegaHL_0p30_96x96",
+  "workers": 10,
+  "continuity_experiment": {
+    "preset": "misaligned",
+    "source_phi": 0.1,
+    "source_theta": 1.5707963267948966,
+    "stationary_source": true
+  },
+  "derived_physics": {
+    "L": 1.0,
+    "mu": 0.5,
+    "a": 0.09560506676056002,
+    "r_plus": 0.6740408497082093,
+    "Omega_H": 0.29999999999999993,
+    "Omega_H_times_L": 0.29999999999999993,
+    "hawking_reall_bound": 1.0
+  },
+  "render_notes": "Controlled continuity experiment with matched camera, source size, numerical tolerances, and common display scaling."
+}
