@@ -2,7 +2,17 @@
 
 Controlled ray tracing from Schwarzschild–AdS to Kerr–AdS with matched mass, camera, source, numerical settings, and a common exposure scale.
 
-![Kerr–AdS continuity experiment](figures/continuity_experiment.png)
+<a href="https://raw.githubusercontent.com/arvinshm/ads-black-hole-raytracer/main/figures/continuity_experiment.png">
+  <img src="https://raw.githubusercontent.com/arvinshm/ads-black-hole-raytracer/main/figures/continuity_experiment.png" alt="Kerr–AdS continuity experiment" width="100%">
+</a>
+
+[Open the full-resolution figure](https://raw.githubusercontent.com/arvinshm/ads-black-hole-raytracer/main/figures/continuity_experiment.png)
+
+The displayed run uses
+
+```text
+Omega_H L = 0, 0.01, 0.03, 0.10, 0.30
+```
 
 ## Run
 
